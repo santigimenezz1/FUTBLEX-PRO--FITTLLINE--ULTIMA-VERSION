@@ -1,0 +1,46 @@
+{
+  "cli": {
+    "version": ">= 12.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "store",
+      "android": {
+        "credentialsSource": "local"
+      },
+      "ios": {
+        "image": "macos-sequoia-15.3-xcode-16.2"
+      }
+    },
+    "preview": {
+      "distribution": "store",
+      "android": {
+        "credentialsSource": "local"
+      },
+      "ios": {
+        "image": "macos-sequoia-15.3-xcode-16.2"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "releaseChannel": "production",
+      "android": {
+        "buildType": "app-bundle",
+        "credentialsSource": "local"
+      },
+      "ios": {
+        "distribution": "store",
+        "buildConfiguration": "Release",
+        "image": "macos-sequoia-15.3-xcode-16.2",
+        "env": {
+          "EXPO_USE_MODULAR_HEADERS": "true"
+        }
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
