@@ -1,4 +1,4 @@
-package com.santigimenezz.proyectoNative
+package com.santiagofittlline.fittlline
 
 import android.app.Application
 import android.content.res.Configuration

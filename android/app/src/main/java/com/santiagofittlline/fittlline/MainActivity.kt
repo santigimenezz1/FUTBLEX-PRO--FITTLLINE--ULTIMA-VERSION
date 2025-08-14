@@ -1,4 +1,4 @@
-package com.santigimenezz.proyectoNative
+package com.santiagofittlline.fittlline
 
 import android.os.Build
 import android.os.Bundle
