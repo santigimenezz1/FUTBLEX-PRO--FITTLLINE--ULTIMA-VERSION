@@ -187,7 +187,7 @@ const Registro = ({ navigation }) => {
         width={230}
         height={45}
         source={{
-          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1726996815/APP%20ALFOMBRA%20DE%20FUTBOL%20AMAZON/icon_xoqflq.jpg'
+          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1755173809/Dise%C3%B1o_sin_t%C3%ADtulo_96_ofhqtu.png'
         }}
       />
 

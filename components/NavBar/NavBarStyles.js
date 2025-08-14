@@ -16,9 +16,7 @@ const styles = StyleSheet.create({
      flexDirection:"row",
      width:"50%",
      gap:10,
-     alignItems:"center",
-     borderWidth:1,
-   
+     alignItems:"center"
     },
     container__navBar__titulo__text:{
         color:"white",

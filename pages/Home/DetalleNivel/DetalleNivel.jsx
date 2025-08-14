@@ -22,7 +22,7 @@ const DetalleNivel = () => {
     <View style={styles.container}>
       <ImageBackground
         source={{
-          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1749081022/Dise%C3%B1o_sin_t%C3%ADtulo_41_lwxxcd.png',
+          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1754578492/ec14307c-5a66-4fa3-bff3-7137db55326e_app0oe_2_fp2usq.png',
         }}
         style={styles.backgroundImage}
         imageStyle={styles.backgroundImageStyle}
@@ -63,3 +63,28 @@ const DetalleNivel = () => {
 };
 
 export default DetalleNivel;
+
+
+
+
+     <ImageBackground
+        source={{
+          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1754578492/ec14307c-5a66-4fa3-bff3-7137db55326e_app0oe_2_fp2usq.png',
+        }}
+        style={styles.backgroundImage}
+        imageStyle={styles.backgroundImageStyle}
+      >
+        {/* Capa oscura */}
+        <View
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.45)',
+            zIndex: 1,
+          }}
+        />
+
+      </ImageBackground>

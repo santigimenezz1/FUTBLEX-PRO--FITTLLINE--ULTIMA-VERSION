@@ -52,7 +52,7 @@ const LoginUsuarios = ({ navigation }) => {
         height={70}
         source={{
           uri:
-            "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1724232180/APP%20ALFOMBRA%20DE%20FUTBOL%20AMAZON/LOGO/Imagen_10-8-24_a_las_19.15_bkb9x9.png",
+            "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1755173809/Dise%C3%B1o_sin_t%C3%ADtulo_96_ofhqtu.png",
         }}
       />
 
