@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FITTLLINE",
+    "name": "FUTBLEX PRO",
     "slug": "fittlline",
     "version": "1.0.8",
     "orientation": "portrait",
@@ -16,7 +16,9 @@
       "bundleIdentifier": "com.santigimenezz.proyectoNative",
       "googleServicesFile": "./GoogleService-Info.plist",
       "jsEngine": "hermes",
-      "buildNumber": "1.0.8"
+      "buildNumber": "1.0.9",
+      "icon": "./assets/icon.png"
+
     },
     "android": {
       "adaptiveIcon": {
