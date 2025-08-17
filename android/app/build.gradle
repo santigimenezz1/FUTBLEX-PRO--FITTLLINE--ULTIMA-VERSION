@@ -109,13 +109,13 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.santigimenezz.proyectoNative'
+    namespace "com.futblexpro"
     defaultConfig {
-        applicationId 'com.santigimenezz.proyectoNative'
+        applicationId 'com.santiagofittlline.fittlline'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 8
-        versionName "1.0.8"
+        versionName "1.0.50"
     }
     signingConfigs {
         debug {
